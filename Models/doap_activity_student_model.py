@@ -17,6 +17,7 @@ from Models.user_model import User
 
 class StudentAnswerItem(EmbeddedDocument):
 
+    
     question = StringField(required=True)  # copied from template
 
     student_answer = StringField()
